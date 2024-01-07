@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
 }
+/* banner section */
 .banner{
     background-image: url("/resources/Banner\ Image.png");
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-   position: relative;
+    position: relative;
     margin: 50px auto;
     display: flex;
     justify-content: center;
@@ -43,6 +44,44 @@
     font-weight: 900;
     line-height: 95px;   
 }
+/* offer section style */
+.offer{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+}
 
+.offer-title{
+    color: #F00;
+   text-align: center;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-top: 45px;
+   margin-bottom: 16px;
+}
+.offer-title-02{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.offer-pic{
+    display: block;
+    margin: 50px 395px 120px 395px;
+    width: 662px;
+    height: 412px;
+   
+}
+/* welcome section style */
 
 
