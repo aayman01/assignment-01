@@ -147,6 +147,9 @@
     background-color: rgb(255, 254, 254);
     color: #070211;
 }
+
+/* time place section style */
+
 .time-place{
     width: 1320px;
     height: 482px;
@@ -195,16 +198,13 @@
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
 }
 .new-year-des{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
     width: 392px;
@@ -214,14 +214,12 @@
     color: #F00;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
 }
 .new-year-wish{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     margin-bottom: 45px;
 }
@@ -341,6 +339,72 @@
 
 /* product section style complete*/
 
+.sub-container{
+    width: 1320px;
+    height: 616px;
+    margin: 120px auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.email-icon img{
+    margin-top: 80px;
+}
+
+.sub-title{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.sub-des{
+    width: 896px;
+    margin: 22px auto;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.sub-btn {
+    width: 438px;
+    height: 72px;
+    margin: 30px auto;
+    background: #FFF;
+    /* border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; */
+    border: 0px;
+    position: absolute;
+}
+
+/* input{ 
+    position: absolute;
+    padding-left:20px;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+} */
+  
+input{
+    position: relative;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+input [type="email"]{
+    background: #FFF;
+    width: 648px;
+
+}
 
 
 
