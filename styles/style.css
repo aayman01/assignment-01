@@ -8,7 +8,7 @@
 .banner{
     max-width: 1320px;
     height: 600px;
-    margin:100px auto;
+    margin: 100px auto;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url(/resources/Banner\ Image.png)
 }
@@ -50,7 +50,7 @@
 }
 
 .offer-title{
-    color: #F00;
+   color: #F00;
    text-align: center;
    font-family: Inter;
    font-size: 24px;
@@ -74,9 +74,12 @@
 .offer-pic{
     display: block;
     margin: auto;
+    margin-top: 50px;
+    margin-bottom: 120px;
     align-items: center;
     width: 662px;
     height: 412px;
+
    
 }
 
@@ -106,8 +109,9 @@
     font-style: normal;
     font-weight: 900;
     line-height: 88px; 
-    padding: 120px 94px 24px 120px;
-    width: 530px;
+    margin: 120px 94px 24px 120px;
+    width: 662px;
+    letter-spacing: 7.04px;
 }
 
 .welcome-description{
@@ -117,12 +121,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    padding: 0 38px 15px 126px;
+    margin-left: 120px;
     width: 575px;
 }
 
 .btn-icon{
-    padding: 10px 600px 0 126px;
+    margin-top: 48px;
+    margin-left: 120px;
 }
 .btn{
     border-radius: 8px;
@@ -142,12 +147,15 @@
     color: #070211;
 }
 .time-place{
+    width: 1320px;
+    height: 482px;
     padding: 120px 0;
+    margin: 120px auto;
     text-align: center;
-        background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 .time-place button{
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 .time-title{
@@ -157,10 +165,76 @@
     font-weight: 600;
     line-height: 56px;
     text-transform: capitalize;
-
 }
 .red{
     color: #F00;
+}
+
+/* new year style section */
+
+.new-year-container{
+    display: flex;
+}
+.new-year-title{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+
+
+/* bonus style section */
+.holiday-container{
+    text-align: center;
+    /* margin: 120px auto; */
+    justify-content: baseline;
+    
+}
+
+.holiday-text-container .holiday-des-01{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+.holiday-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-left: 28px;
+}
+
+.holiday-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    margin: 28px auto;
+}
+
+
+.holiday-img-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .holiday-img{
+
+} */
+.discount-icon{
+    position: absolute
+    /* margin: ; */
 }
 
 
