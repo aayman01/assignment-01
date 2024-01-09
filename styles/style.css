@@ -179,7 +179,7 @@
 
 .new-year-container{
     display: flex;
-    gap: 30px;
+    gap: 50px;
     width: 83%;
     max-width: 1320px;
     margin: 120px auto ;
@@ -267,8 +267,6 @@
     line-height: 32px; 
     margin: 28px auto;
 }
-
-
 .holiday-img-container div{
     display: flex;
 
@@ -302,8 +300,6 @@
     position: relative;
     z-index: 1;
 }
-
-
 
 /* product section style */
 
