@@ -371,42 +371,17 @@
     font-size: 20px;
     font-weight: 400;
 }
-/* .sub-btn {
-    width: 648px;
-    height: 72px;
-    background: #FFF;
-    border: 0px;
-    position: absolute;
-} */
-
-/* input{ 
-    position: absolute;
-    padding-left:20px;
-    color: rgba(7, 2, 17, 0.30);
-    text-align: center;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: normal;
-} */
   
-/* input{
-    
-    margin: 30px auto;
-    position: relative;
+input{
+    padding: 25px 30px;
+    position: absolute;
     font-size: 18px;
     display: inline-block;
     box-sizing: border-box;
-    text-align: center;
+    text-align: start;
     justify-content: center;
 }
 
-input [type="email"]{
-    background: #FFF;
-    width: 648px;
-
-}
- */
 .sub-btn form{
     max-width: 800px;
     margin: 20px auto;
@@ -438,19 +413,10 @@ input [type="email"]{
     cursor: pointer;
     transition: all 1s;
 }
-input [type="email"] {
-    margin: 25px 30px;
-    color: rgba(7, 2, 17, 0.30);
-    text-align: center;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-}
-
 .sub-btn button:hover{
     color:black;
     background-color: rgb(224, 154, 154);
+    
 }
 
 
