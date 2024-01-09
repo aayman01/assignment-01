@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 /* banner section */
 
 .banner{
@@ -232,7 +233,8 @@
 }
 
 /* bonus style section */
-/* .holiday-container{
+
+.holiday-container{
     text-align: center;
     margin: 120px auto;
     
@@ -267,16 +269,41 @@
 }
 
 
-.holiday-img-container{
+.holiday-img-container div{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+
+}
+.holiday-img-container{
+    margin: 120px;
+
+}
+.holiday-img-gift{
+    position: relative;
+    width: 100%;
+}
+.woman{
+    width: 100%;
+}
+.discount-icon{
+    position: absolute;
+    top: 50%;
+    left: -90%;
+    transform: translate(75%,-50%);
+}
+.rectangle img {
+    width: 100%
+}
+.holiday-img{
+    margin-bottom: -150px;
+    z-index: 2;
+}
+.rectangle{
+    position: relative;
+    z-index: 1;
 }
 
-.discount-icon{
-    position: absolute
 
-} */
 
 /* product section style */
 
@@ -423,8 +450,6 @@ input{
 /* footer section start */
 footer{
     background: #070211;
-    max-width: 75%;
-    height: 609px;
     margin-top: 100px;
     margin:0 auto;
     gap: 100px;
@@ -441,8 +466,6 @@ footer{
 .footer-top-container >p{
     color: #FFF;
     font-family: Inter;
-    width: 375px;
-    height: 80px;
     font-size: 20px;
     font-weight: 500;
     align-items: center;
@@ -479,7 +502,8 @@ hr{
 .copy-right{
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
