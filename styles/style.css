@@ -370,16 +370,13 @@
     font-size: 20px;
     font-weight: 400;
 }
-.sub-btn {
-    width: 438px;
+/* .sub-btn {
+    width: 648px;
     height: 72px;
-    margin: 30px auto;
     background: #FFF;
-    /* border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px; */
     border: 0px;
     position: absolute;
-}
+} */
 
 /* input{ 
     position: absolute;
@@ -392,12 +389,15 @@
     line-height: normal;
 } */
   
-input{
+/* input{
+    
+    margin: 30px auto;
     position: relative;
     font-size: 18px;
     display: inline-block;
     box-sizing: border-box;
     text-align: center;
+    justify-content: center;
 }
 
 input [type="email"]{
@@ -405,7 +405,15 @@ input [type="email"]{
     width: 648px;
 
 }
-
+ */
+.sub-btn form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+}
+.sub-btn form input{
+    flex-grow: 1;
+}
 
 
 
