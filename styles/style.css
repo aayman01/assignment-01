@@ -227,6 +227,7 @@
 .new-year-img-contain> img{
     border-radius: 463px;
     border: 15px solid #F00;
+    padding: 20px;
     flex-shrink: 0;
 }
 
@@ -412,9 +413,45 @@ input [type="email"]{
     display: flex;
 }
 .sub-btn form input{
+    position: relative;
     flex-grow: 1;
+    width: 648px;
+    height: 72px;
+    border-radius: 50px 0 0 50px;
+    border: none;
+}
+.sub-btn .subscribe-button{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+
+}
+.sub-btn button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 56px;
+    cursor: pointer;
+    transition: all 1s;
+}
+input [type="email"] {
+    margin: 25px 30px;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
 }
 
+.sub-btn button:hover{
+    color:black;
+    background-color: rgb(224, 154, 154);
+}
 
 
 
