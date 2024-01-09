@@ -10,7 +10,7 @@
     height: 600px;
     margin: 100px auto;
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('/resources/Banner\ Image.png')
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('./resources/Banner\ Image.png')
 }
 
 .text-container{
@@ -422,12 +422,38 @@ input{
 
 /* footer section start */
 .footer-container{
-
+    background: #070211;
+    width: 70%;
+    height: 609px;
+    margin-top: 100px;
+    margin:0 auto;
+    gap: 100px;
+    padding: 130px 200px;
 }
 .footer-top-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.footer-top-container >p{
+    color: #FFF;
+}
+.social-link{
+    color: #FFF;
+}
+.social-num {
+    display: flex;
+    gap: 16px;  
+}
+.social-web{
+    display: flex;
+    gap: 16px;
+}
+hr{
+    background: rgba(255, 255, 255, 0.15);
 }
 
 
